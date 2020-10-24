@@ -1,0 +1,12 @@
+{
+  "name": "template-projeto",
+  "version": "0.0.1",
+  "description": "Template utilizado como base, nele contém eslint, prettier, editorConfig configurados além de uma configuração basica do typeorm utilizando postgree para um cadastro de usuário.",
+  "main": "server.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev:teste": ""    
+  },
+  "author": "João Marcos Correia",
+  "license": "MIT"
+}
