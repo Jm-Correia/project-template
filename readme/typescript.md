@@ -40,5 +40,34 @@
 >```sh
 > $ yarn add tsconfig-paths -D
 >```
+> Aqui neste ponto precisamos alterar nosso arquivo de configuração *tsconfig.json* e criar os paths que desejamos ter.
+>
+> PS -> Eu não crio paths para tudo apenas para os mais utilizados ou que o para quando o nível hierárquico for muito denso.
+> Exemplo:
+>```json
+>{
+>  "compilersOptions": {
+>    "baseUrl": ".",
+>    "paths": {
+>      "@controllers/*": ["./src/>controllers/*"],
+>      "@models/*": ["./src/models/*"],
+>      "@config/*": ["./src/config/*"],
+>      "@utils/*": ["./src/utils/*"]
+>    }
+>  }
+>}
+>```
+> Após isso podemos no importar da seguinte forma:
+~~~javascript
+import {User} from '@models/users/User'
+~~~
+> em nosso package.json no script dev precisamos registrar a utilização da lib da seguinte forma:
+>```json
+> "scripts": {
+>    "dev": "ts-node-dev -r tsconfig-paths/register src/server.ts"
+>  },
+>```
 
+> ### Debug:
+>
 

@@ -3,8 +3,8 @@
 # Índice:
 
 - [Padronização do Código](readme/padrao.md)
-    1. [EditoConfig](readme/padrao.md#editorconfig)
-    2. [Eslint](readme/padrao.md#eslint)
+    1. [EditorConfig](readme/padrao.md#editorconfig)
+    2. [ESLint](readme/padrao.md#eslint)
     3. [Prettier](readme/padrao.md#prettier)
 - [Typescript](readme/typescript.md)
 - Database
@@ -15,7 +15,7 @@
 
 
 ### Motivação:
-> Com o passar do tempo notamos aprender é bem diferente de decorar por isso que ter alguns projetos prontos armazenados no github nós ajuda a lembrar e até mesmo usar quando necessário algum trecho de código.
+> Com o passar do tempo notamos que aprender é bem diferente de decorar por isso que ter alguns projetos prontos armazenados no github nós ajuda a lembrar e até mesmo usar quando necessário algum trecho de código.
 >
 >Por isso decidi investir um tempo construindo um projeto que posso usar como template utilizando algumas tecnologias do ecossistema NodeJS que venho me dedicando a estudar e trabalhar no dia a dia.
 >
