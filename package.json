@@ -1,24 +1,29 @@
 {
-  "name": "template-projeto",
-  "version": "0.0.1",
-  "description": "Template utilizado como base, nele contém eslint, prettier, editorConfig configurados além de uma configuração basica do typeorm utilizando postgree para um cadastro de usuário.",
-  "main": "server.ts",
-  "scripts": {
-    "build": "tsc",
-    "dev:teste": ""
-  },
-  "author": "João Marcos Correia",
-  "license": "MIT",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.5.0",
-    "@typescript-eslint/parser": "^4.5.0",
-    "eslint": "6.8.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-import-resolver-typescript": "^2.3.0",
-    "eslint-plugin-import": "^2.21.2"
-  },
-  "dependencies": {
-    "@types/express": "^4.17.8",
-    "express": "^4.17.1"
-  }
+    "name": "template-projeto",
+    "version": "0.0.1",
+    "description": "Template utilizado como base, nele contém eslint, prettier, editorConfig configurados além de uma configuração basica do typeorm utilizando postgree para um cadastro de usuário.",
+    "main": "server.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev:teste": ""
+    },
+    "author": "João Marcos Correia",
+    "license": "MIT",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.5.0",
+        "@typescript-eslint/parser": "^4.5.0",
+        "eslint": "6.8.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-import-resolver-typescript": "^2.0.0",
+        "eslint-plugin-import": "^2.21.2",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.0.5",
+        "tsconfig-paths": "^3.9.0",
+        "typescript": "^4.0.3"
+    },
+    "dependencies": {
+        "@types/express": "^4.17.8",
+        "express": "^4.17.1"
+    }
 }

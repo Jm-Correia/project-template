@@ -17,7 +17,7 @@
 >
 > [ESLint](#eslint)
 >
-> [Prettier]($prettier)
+> [Prettier](#prettier)
 
 Abaixo segue as configurações, de cada ferramenta, que utilizei para este projeto, seguirei na ordem acima.
 
@@ -91,9 +91,42 @@ Abaixo segue as configurações, de cada ferramenta, que utilizei para este proj
 > $ yarn add @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint-plugin-import@^2.21.2 @typescript-eslint/parser@latest -D
 >```
 > 6. Criamos o arquivo *.eslintignore*.
-> 7. E por fim devemos configurar o arquivo *.eslintrc.json*. Neste momento eu tenho uma cola para preencher. Para dúvidas veja a pagina principal do Eslint e adicionamos a lib:
+> 7. E por fim devemos configurar o arquivo *.eslintrc.json*. Neste momento eu tenho uma cola para preencher. Para dúvidas veja a pagina principal do Eslint.
+> 8. Adicionamos a lib:
 >```sh
 > $ yarn add eslint-import-resolver-typescript -D
 >```
 #### <a id="prettier">[Prettier](https://prettier.io/docs/en/options.html)</a>
+> Esta ferramenta nos ajuda a estilização do nosso código. Ex: não permitir que uma linha seja maior que 100 caracteres, adicionar *Ponto-virgula* entre outras.
+> - Antes de tudo:
+>
+> *Caso tenhamos instalado a extensão *Prettier* devemos remover ou desabilitar o uso para não termos conflito com este projeto em questão.
+> - Vamos lá:
+>
+> 1. Vamos adicionar ao projeto as seguintes bibliotecas:
+> ```sh
+> $ yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+>```
+> 2. Adicionamos ao *.eslintrc.json* o seguinte trecho:
+>```json
+>{
+>	...
+>  "extends": [
+>		...
+>    "prettier/@typescript-eslint",
+>    "plugin:prettier/recommended"
+>  ],
+>  ...
+>  "plugins": [
+>    ...
+>    "prettier"
+>  ],
+>  "rules": {
+>    ...
+>		"prettier/prettier": "error"
+>  },
+>  ...
+>}
+>```
+> 3. E por fim criamos o arquivo *prettier.config.js* para resolvermos os conflitos entre *ESLint* e *Prettier*.
 >
