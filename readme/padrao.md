@@ -7,7 +7,7 @@
 >
 > Como dev devemos sim pensar na padronização do nosso código para que ele se torna mais legível. Indo além temos o "dever" de padronizar nosso código para que quando os outros desenvolvedores precisem: criar, salvar e "comitar" uma nova mudança tudo esteja padronizado de acordo com as definições iniciais do projeto.
 >
-> No final indicarei alguns extensões muito uteis que acredito que nós devs precisamos utilizar e explicarei o motivo de cada uma. [clique aqui](#extensoes) caso queria ir direto para o trecho.
+>[< Voltar](../Readme.md)
 
 ### Ferramentas para padronizar este projeto:
 
@@ -42,6 +42,8 @@ Abaixo segue as configurações, de cada ferramenta, que utilizei para este proj
 > 1. Inserimos uma nova linha no final.
 > 2. Padronizamos a quebra de linha entre Sistemas Operacionais.
 > 3. Removemos os espaços em branco de novas linhas.
+>
+>[< Voltar](../Readme.md)
 
 #### <a id="eslint">[Eslint](https://eslint.org/docs/rules/)</a>
 > Esta sem dúvidas é uma ferramenta poderosa que nós auxilia a padronizar o código podendo ser utilizado para projetos NodeJS, ReactJS, ReactNative entre outros.
@@ -94,6 +96,8 @@ Abaixo segue as configurações, de cada ferramenta, que utilizei para este proj
 >```sh
 > $ yarn add eslint-import-resolver-typescript -D
 >```
+>[< Voltar](../Readme.md)
+
 #### <a id="prettier">[Prettier](https://prettier.io/docs/en/options.html)</a>
 > Esta ferramenta nos ajuda a estilização do nosso código. Ex: não permitir que uma linha seja maior que 100 caracteres, adicionar *Ponto-virgula* entre outras.
 > - Antes de tudo:
@@ -128,5 +132,4 @@ Abaixo segue as configurações, de cada ferramenta, que utilizei para este proj
 >```
 > 3. E por fim criamos o arquivo *prettier.config.js* para resolvermos os conflitos entre *ESLint* e *Prettier*.
 >
-
-### [< Voltar](../Readme.md)
+> [< Voltar](../Readme.md)

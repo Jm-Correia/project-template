@@ -6,10 +6,11 @@
     1. [EditoConfig](readme/padrao.md#editorconfig)
     2. [Eslint](readme/padrao.md#eslint)
     3. [Prettier](readme/padrao.md#prettier)
-- Typescript
+- [Typescript](readme/typescript.md)
 - Database
 - Arquitetura
 - Testes
+- Extensões VsCode
 
 
 

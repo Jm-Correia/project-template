@@ -5,7 +5,7 @@
     "main": "server.ts",
     "scripts": {
         "build": "tsc",
-        "dev:teste": ""
+        "dev:server": "ts-node-dev --inspect --respawn --transpile-only --ignore node_modules src/server.ts"
     },
     "author": "João Marcos Correia",
     "license": "MIT",
@@ -19,6 +19,7 @@
         "eslint-plugin-import": "^2.21.2",
         "eslint-plugin-prettier": "^3.1.4",
         "prettier": "^2.0.5",
+        "ts-node-dev": "^1.0.0",
         "tsconfig-paths": "^3.9.0",
         "typescript": "^4.0.3"
     },
