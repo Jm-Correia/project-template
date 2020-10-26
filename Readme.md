@@ -15,11 +15,12 @@
 
 
 ### Motivação:
-> Com o passar do tempo notamos que aprender é bem diferente de decorar por isso que ter alguns projetos prontos armazenados no github nós ajuda a lembrar e até mesmo usar quando necessário algum trecho de código.
+> Com o passar do tempo notamos que aprender é bem diferente de decorar.
+> Por isso que ter alguns projetos prontos armazenados no github nos ajuda a lembrar e até mesmo usar, quando necessário, algum trecho de código.
 >
 >Por isso decidi investir um tempo construindo um projeto que posso usar como template utilizando algumas tecnologias do ecossistema NodeJS que venho me dedicando a estudar e trabalhar no dia a dia.
 >
-> Neste projeto eu decidi abordar os principais tópicos. Tas como:
+> Neste projeto eu decidi abordar os principais tópicos. Tais como:
 > 1. Padronização para times
 > 2. Utilização do database
 > 3. Por que decidi aprender typescript e como configurei e realizo as transpilação (Compilação).

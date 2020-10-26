@@ -5,7 +5,7 @@
     "main": "server.ts",
     "scripts": {
         "build": "tsc",
-        "dev:server": "ts-node-dev -r tsconfig-paths/register --inspect --respawn --transpile-only --ignore node_modules --no-notify src/server.ts"
+        "dev:server": "ts-node-dev --inspect  -r tsconfig-paths/register --respawn --ignore node_modules --no-notify src/server.ts"
     },
     "author": "João Marcos Correia",
     "license": "MIT",
@@ -21,6 +21,7 @@
         "prettier": "^2.0.5",
         "ts-node-dev": "^1.0.0",
         "tsconfig-paths": "^3.9.0",
+        "ts-node": "^9.0.0",
         "typescript": "^4.0.3"
     },
     "dependencies": {
